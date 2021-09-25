@@ -16,12 +16,13 @@ pipeline{
 		     }	
 		 }
 	 }
-	 stage('maven'){
+	 /*stage('maven'){
 	 	steps{
 		 
 		     	sh "./mvnw package"
 		 
 		}
-	}
+	}*/
    }
+   ./mvnw package
 }
