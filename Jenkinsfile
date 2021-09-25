@@ -1,5 +1,8 @@
 pipeline{
    agent any
+   tools{
+   	manen 'MAVEN'
+   }
    stages{
    	stage('clone the code'){
 		steps{
