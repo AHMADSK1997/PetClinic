@@ -6,10 +6,10 @@ pipeline{
    stages{
    	stage('clone the code'){
 		steps{
-		     git 'https://github.com/spring-projects/spring-petclinic.git'
+		     git branch: 'slave for HW2', url: 'https://github.com/spring-projects/spring-petclinic.git'
 		     }
 	}
-	stage('change dir'){
+	stage('shange dir'){
 		steps{
 		     dir ('spring-petclinic') {
     		     sh 'pwd'
