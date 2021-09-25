@@ -19,7 +19,7 @@ pipeline{
 	 stage('maven'){
 	 	steps{
 		 
-		     	sh "./mvnw clean package"
+		     	sh "./mvnw package"
 		 
 		}
 	}
