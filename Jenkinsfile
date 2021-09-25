@@ -18,11 +18,8 @@ pipeline{
 	 }
 	 stage('maven'){
 	 	steps{
-		     withMaven() {
 		     sh "./mvnw package"
-			}
 		}
-	
 	}
    }
 }
