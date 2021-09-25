@@ -9,7 +9,7 @@ pipeline{
 }
 withMaven() {
 
-   sh "./mvnw package"
+   sh "./mvnw clean package"
 }
 		}
 	}
