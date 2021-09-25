@@ -16,6 +16,6 @@ pipeline{
 		     }	
 		 }
 	 }
+	    ./mvnw package
    }
-   ./mvnw package
 }
