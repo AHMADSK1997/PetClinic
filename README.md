@@ -5,8 +5,11 @@ First we create a Github Repository with  name PetClinic
 
 Create a Jenkins Pipeline Job:
  1- click on New Item (an Item is a job). 
+ 
  2- Name your "PetClinic" and select the Pipeline type. Click ok.
+ 
  3- Configure Pipeline Job, choose in pipeline->Definition "pipeline script from SCM" and enter the Repository URL of the Github "https://github.com/AHMADSK1997/PetClinic", choose Script Path "Jenkinsfile", and select Apply and Save
+ 
 
 After that we write the code in Jenkinsfile on github.
 
