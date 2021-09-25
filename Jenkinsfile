@@ -16,5 +16,10 @@ pipeline{
 		     }	
 		 }
 	 }
+	 stage('maven'){
+	 	steps{
+		     sh './mvnw package'
+		}
+	 }
    }
 }
