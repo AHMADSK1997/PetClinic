@@ -4,7 +4,8 @@ HW2 (Jenkins) Spring PetClinic Sample Application
 First we create a Github Repository with  name PetClinic
 
 Create a Jenkins Pipeline Job:
- 1- click on New Item (an Item is a job). 
+
+1- click on New Item (an Item is a job). 
  
  2- Name your "PetClinic" and select the Pipeline type. Click ok.
  
