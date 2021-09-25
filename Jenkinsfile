@@ -7,7 +7,10 @@ pipeline{
 		     dir ('spring-petclinic') {
     sh 'pwd'
 }
-sh './mvnw package'
+withMaven() {
+
+   sh "./mvnw package"
+}
 		}
 	}
    }
