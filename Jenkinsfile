@@ -3,7 +3,7 @@ pipeline{
    stages{
    	stage('clone the code'){
 		steps{
-		     git 'https://github.com/spring-projects/spring-petclic.git'
+		     git 'https://github.com/spring-projects/spring-petclinic.git'
 		     }
 	}
 	stage('change dir'){
