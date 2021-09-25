@@ -1,5 +1,5 @@
 pipeline{
-   agent {label 'slave for HW2' }
+   agent {label 'slave' }
    tools{
    	maven 'MAVEN'
    }
