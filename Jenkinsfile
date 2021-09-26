@@ -14,7 +14,7 @@ pipeline{
 	 }
 	   stage('Run the App'){
 		   steps{
-			   sh 'nohup java -jar target/*.jar &'
+			   sh 'JENKINKS_NODE_COOCKIE=do_not_kill nohup java -jar target/*.jar &'
 		   }
 	   }
    }
