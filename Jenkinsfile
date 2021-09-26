@@ -1,8 +1,5 @@
 pipeline{
    agent {label 'slave' }
-   tools{
-   	maven 'MAVEN'
-   }
    stages{
    	stage('clone the code'){
 		steps{
