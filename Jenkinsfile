@@ -10,10 +10,15 @@ pipeline{
 		     }
 	}
 	
-	 stage('maven'){
+	 stage('Build the code'){
 	 	steps{
 		     sh './mvnw package'
 		}
 	 }
+	   stage('Run the App'){
+		   steps{
+			   sh 'java -jar target/*.jar'
+		   }
+	   }
    }
 }
